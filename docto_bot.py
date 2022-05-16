@@ -56,5 +56,5 @@ centers = read_centers('centers.txt')
 
 infos = get_info(centers, header)
 params = extract_param(infos)
-check_slot(params, centers, header, 21)
+check_slot(params, centers, header, 15)
 print('Done !')
